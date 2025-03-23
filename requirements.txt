@@ -1,0 +1,6 @@
+#pandas (solo nombre de paquete
+#django==4.2.5 (nombre de paquete con version exacta
+#torch>=2.0.0 o fastapi<1.0.0 (version minima o maxima)
+#tensorflow>=2.10,<2.15 (rango de versiones)
+#-r other-requirements.txt (dependencias desde un archivo externo)
+#git+https://github.com/usuario/repositorio.git@branch
