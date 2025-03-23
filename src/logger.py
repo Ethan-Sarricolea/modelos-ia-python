@@ -6,5 +6,5 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-logging.info("Aplicación iniciada")
-logging.error("Ocurrió un error")
+logging.info("Aplicacion iniciada")
+logging.error("Ocurrio un error")
