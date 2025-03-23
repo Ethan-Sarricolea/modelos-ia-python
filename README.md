@@ -36,11 +36,6 @@ Project/
 - seaborn: Crear graficos y visualizar datos
 - Tensorflow o Pytorch: Para deep learning y redes neuronales.
 
-Para mostrar una libreria en especifico
-```bash
-pip show [libreria]
-```
-
 Para ver la lista de liberias instaladas
 ```bash
 pip list
@@ -68,3 +63,7 @@ Si deseas contribuir a este proyecto, por favor crea un fork y envía un pull re
 
 # Notas de curso
 Las notas del curso se encuentran en mi repositorio de notas academicas, por lo que posteriormente las pasare aqui.
+
+## Notebooks
+
+En la carpeta notebooks se encuentran los aprendizajes y modelos.
