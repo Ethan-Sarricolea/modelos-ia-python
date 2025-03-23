@@ -4,3 +4,8 @@
 #tensorflow>=2.10,<2.15 (rango de versiones)
 #-r other-requirements.txt (dependencias desde un archivo externo)
 #git+https://github.com/usuario/repositorio.git@branch
+
+pandas
+numpy
+seaborn
+scikit-learn

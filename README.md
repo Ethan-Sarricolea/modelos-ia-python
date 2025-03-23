@@ -7,24 +7,43 @@ Este es un sistema base para proyectos en Python, con una estructura organizada 
 
 ```
 Project/
-│── assets/
-│── config/
+│── assets/     # Recursos estaticos
+│── config/     # Configuracion
 │    ├── data.json
-│── docs/
-│── logs/
-│── src/
-|    ├── notes
-|       ├──libreta.ipynb
+│── docs/       # Documentos
+├── notes       # Notas jupyter
+|    ├──libreta.ipynb
+│── logs/       # Logs (Registro de ejecuciones)
+│── src/        # Codigo fuente
 |    ├── module
 │       ├── main.py
 │       ├── logger.py
 │       ├── utils.py
-│── tests/
+│── tests/      # Pruebas automatizadas
 │    ├── test_main.py
 │── .gitignore
 │── LICENSE
 │── README.md
 │── requirements.txt
+```
+
+## Librerias utilizadas
+
+- Pandas: Para leer, manipular y analizar datos
+- NumPy: Para operaciones mas rapidas
+- scikit-learn: Con herramientas para modelos estadisticos y de machine learning como: **clasificación, regresion, agrupamiento, etc.**
+- matplotlib: Crear graficos y visualizar datos
+- seaborn: Crear graficos y visualizar datos
+- Tensorflow o Pytorch: Para deep learning y redes neuronales.
+
+Para mostrar una libreria en especifico
+```bash
+pip show [libreria]
+```
+
+Para ver la lista de liberias instaladas
+```bash
+pip list
 ```
 
 ## Instalación
